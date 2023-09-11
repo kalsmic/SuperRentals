@@ -22,8 +22,5 @@ module('Integration | Component | rental/image', function (hooks) {
       .exists()
       .hasAttribute('src', '/assets/images/teaching-tomster.png')
       .hasAttribute('alt', 'Teaching Tomster');
-
-  
-
   });
 });
