@@ -1,15 +1,15 @@
 # super-rentals
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+
 
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
 
 * [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://cli.emberjs.com/release/)
+* [Node.js](https://nodejs.org/) (with npm) - NODE v16.20.2
+* [Ember CLI](https://cli.emberjs.com/release/) - v4.5.0
 * [Google Chrome](https://google.com/chrome/)
 
 ## Installation
