@@ -21,8 +21,8 @@ module('Integration | Component | jumbo', function (hooks) {
       </Jumbo>
     `);
 
-    assert.dom('.jumbo').exists()
+    assert.dom('.jumbo').exists();
     assert.dom(this.element).hasText('template block text');
-    assert.dom('.jumbo .tomster').exists()
+    assert.dom('.jumbo .tomster').exists();
   });
 });

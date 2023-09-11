@@ -9,6 +9,7 @@ module('Acceptance | super rentals', function (hooks) {
     await visit('/');
 
     assert.strictEqual(currentURL(), '/');
+    // assert.dom('nav').exists();
     assert.dom('h2').hasText('Welcome to Super Rentals!');
 
     assert.dom('.jumbo a.button').hasText('About Us');
