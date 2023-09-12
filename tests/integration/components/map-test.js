@@ -28,8 +28,8 @@ module('Integration | Component | map', function (hooks) {
     let token = encodeURIComponent(ENV.MAPBOX_ACCESS_TOKEN);
 
     assert.ok(
-      src.startsWith('http://api.mapbox.com/'),
-      'the src starts with "http://api.mapbox.com/"'
+      src.startsWith('https://api.mapbox.com/'),
+      'the src starts with "https://api.mapbox.com/"'
     );
 
     assert.ok(
@@ -136,7 +136,7 @@ module('Integration | Component | map', function (hooks) {
 
     assert
       .dom('.map img')
-      .hasAttribute('src', /^http:\/\/api\.mapbox\.com\//)
+      .hasAttribute('src', /^https:\/\/api\.mapbox\.com\//)
       .hasAttribute('width', '150')
       .hasAttribute('height', '120');
   });
