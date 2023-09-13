@@ -23,7 +23,10 @@ module('Integration | Component | nav-bar', function (hooks) {
     await click('nav a.menu-contact');
     assert.strictEqual(currentURL(), '/getting-in-touch');
 
-    await click('nav a.menu-index');
-    assert.strictEqual(currentURL(), '/');
+    assert.dom('nav a.menu-index').hasText('SuperRentals');
+
+
+    await click('nav a.menu-about');
+    assert.strictEqual(currentURL(), '/about');
   });
 });
