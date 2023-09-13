@@ -25,7 +25,6 @@ module('Integration | Component | nav-bar', function (hooks) {
 
     assert.dom('nav a.menu-index').hasText('SuperRentals');
 
-
     await click('nav a.menu-about');
     assert.strictEqual(currentURL(), '/about');
   });
